@@ -60,9 +60,7 @@
   margin: 0;
   margin-bottom: 12px;
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(700, 20px, 1.15);
   text-align: center;
 }
 .modal-block {
@@ -71,10 +69,7 @@
 .label-input {
   display: block;
   margin-bottom: 4px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 1.17, 0.01em);
   color: var(--primary-text-color);
 }
 .input-wrapper {
@@ -126,9 +121,7 @@
   margin-bottom: 20px;
 }
 .check-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71);
   display: flex;
   margin-bottom: 30px;
   position: relative;

@@ -38,8 +38,7 @@
 }
 .footer-address,
 .footer-contacts {
-  font-weight: 400;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contacts {
