@@ -23,8 +23,7 @@
   }
 }
 .section-main-buttons {
-  display: flex;
-  justify-content: center;
+  @extend %justify-content;
   margin-bottom: 50px;
 }
 .section-main-buttons .current {
