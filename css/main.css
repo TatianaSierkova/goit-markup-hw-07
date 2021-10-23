@@ -11,7 +11,7 @@
   --primary-icon-color: #afb1b8;
 }
 
-.social-link, .backdrop, .close-button, .header-container, .container-nav, .site-nav {
+.social-list_link, .backdrop, .close-button, .header-container, .container-nav, .site-nav {
   display: flex;
   align-items: center;
 }
@@ -116,16 +116,16 @@ body {
   background-color: #188ce8;
 }
 
-.social-item {
+.social-list_item {
   width: 44px;
   height: 44px;
 }
 
-.social-item + .social-item {
+.social-list_item + .social-list_item {
   margin-left: 10px;
 }
 
-.social-link {
+.social-list_link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -133,19 +133,19 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover, .social-link:focus {
+.social-list_link:hover, .social-list_link:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social-list_icon {
   width: 20px;
   height: 20px;
   fill: var(--primary-icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.social-list_link:hover .social-list_icon,
+.social-list_link:focus .social-list_icon {
   fill: var(--secondary-text-color);
 }
 
@@ -499,7 +499,7 @@ body {
   margin-top: -30px;
 }
 
-.section-plan-icon {
+.section-plan_icon {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
@@ -509,12 +509,12 @@ body {
   justify-content: center;
 }
 
-.section-plan-svg {
+.section-plan_svg {
   width: 70px;
   height: 70px;
 }
 
-.section-plan-title {
+.section-plan_title {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -524,13 +524,13 @@ body {
   text-transform: uppercase;
 }
 
-.section-plan-item {
+.section-plan_item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.section-plan-text {
+.section-plan_text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -541,9 +541,9 @@ body {
   padding-top: 0;
 }
 
-.section-work-title,
-.section-team-title,
-.section-clients-title {
+.section-work_title,
+.section-team_title,
+.section-clients_title {
   margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -560,14 +560,14 @@ body {
   margin-top: -30px;
 }
 
-.item-img {
+.section-work_item-img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
   position: relative;
 }
 
-.item-img-title {
+.section-work_item-img-title {
   bottom: 0;
   width: 100%;
   padding: 27px;
@@ -593,7 +593,7 @@ body {
   margin-top: -30px;
 }
 
-.item-img-team {
+.section-team_item-img-team {
   padding-bottom: 30px;
   margin-left: 30px;
   margin-top: 30px;
@@ -607,21 +607,21 @@ body {
   margin-bottom: 30px;
 }
 
-.section-team-name,
-.section-team-profesion {
+.section-team_name,
+.section-team_profesion {
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.section-team-name {
+.section-team_name {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
 }
 
-.section-team-profesion {
+.section-team_profesion {
   margin-bottom: 16px;
   font-weight: 400;
 }
@@ -633,7 +633,7 @@ body {
   margin-top: -30px;
 }
 
-.clients-link {
+.section-clients_link {
   display: flex;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -643,17 +643,17 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.section-clients_link:hover, .section-clients_link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.item-clients {
+.section-clients_item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
 }
 
-.logo-clients {
+.section-clients_logo {
   width: 106px;
   height: 60px;
   fill: var(--primary-icon-color);
@@ -662,8 +662,8 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover .logo-clients,
-.clients-link:focus .logo-clients {
+.section-clients_link:hover .section-clients_logo,
+.section-clients_link:focus .section-clients_logo {
   fill: var(--accent-color);
 }
 
