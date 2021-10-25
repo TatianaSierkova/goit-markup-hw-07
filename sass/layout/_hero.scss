@@ -14,10 +14,3 @@
   background-position: center;
   background-size: cover;
 }
-.section-title {
-  color: var(--secondary-text-color);
-  margin-bottom: 30px;
-  @include font(900, 44px, 1.36, 0.06em);
-  text-align: center;
-  text-transform: uppercase;
-}

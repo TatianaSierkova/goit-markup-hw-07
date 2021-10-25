@@ -1,9 +1,9 @@
 @import './utils/vars';
 @import './utils/placeholder';
 @import './utils/mixins';
-@import './base/reset';
 @import './base/common';
-@import './utils/hidden';
+@import './base/hidden';
+@import './components/section';
 @import './components/container';
 @import './components/logo';
 @import './components/btn';
@@ -18,4 +18,4 @@
 @import './layout/section-team';
 @import './layout/section-clients';
 @import './layout/footer';
-@import './layout/page-portfolio';
+@import './layout/section-portfolio';
